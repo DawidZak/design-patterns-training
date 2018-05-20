@@ -1,4 +1,4 @@
-package pl.training.designpattern.flyweight;
+package flyweight;
 
 /**
  * Created by dawid on 20.05.18.

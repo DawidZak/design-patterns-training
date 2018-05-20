@@ -1,4 +1,4 @@
-package pl.training.designpattern.flyweight;
+package flyweight;
 
 import java.util.HashMap;
 

@@ -1,16 +1,16 @@
-package pl.training.designpattern.flyweight;
+package flyweight;
 
 /**
  * Created by dawid on 20.05.18.
  */
-public class Start {
+public class StartFlyweight {
 
     public static void main(String[] args) {
-        System.out.println("Start");
+        System.out.println("StartFlyweight");
         FlyweightVehicleFactory flyweightVehicleFactory =  new FlyweightVehicleFactory();
-        System.out.println("Start getting first bicycle");
+        System.out.println("StartFlyweight getting first bicycle");
         flyweightVehicleFactory.getVehicle(VehicleType.Bicycle);
-        System.out.println("Start getting second bicycle");
+        System.out.println("StartFlyweight getting second bicycle");
         flyweightVehicleFactory.getVehicle(VehicleType.Bicycle);
 
     }
